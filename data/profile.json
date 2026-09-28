@@ -1,0 +1,266 @@
+{
+  "_help": "Edit this file to update your portfolio. After saving, run publish.cmd (or: node build.js). Keep the JSON format valid: text in double quotes, commas between items.",
+
+  "name": "Janin A Apurba",
+  "degree": "B.Sc. in Computer Science & Engineering, AUST",
+  "credentials": "CSE, AUST",
+  "currentRole": "Advanced ICT Officer",
+  "currentOrg": "CNRS-UNHCR",
+  "tagline": "AI & Computer Vision researcher-in-the-making · Competitive programmer · Educator",
+  "typedRoles": [
+    "Aspiring PhD Researcher in AI",
+    "Computer Vision Enthusiast",
+    "Competitive Programmer (10+ years)",
+    "Advanced ICT Officer at CNRS-UNHCR",
+    "Educator & Author of 273 AI Lectures"
+  ],
+  "location": "Dhaka, Bangladesh",
+  "email": "japurba97@gmail.com",
+  "phone": "+8801938328401",
+  "photo": "images/profile.jpg",
+  "openTo": "Seeking a fully funded PhD in AI, Computer Vision & Machine Learning",
+  "siteUrl": "https://janin-a-apurba.vercel.app",
+
+  "summary": [
+    "I am a Computer Science and Engineering graduate with a deep passion for solving problems through code. Over the past decade, I have immersed myself in competitive programming, which has sharpened my ability to think critically and design efficient algorithms.",
+    "Alongside this, I have developed a strong interest in artificial intelligence, machine learning, deep learning and computer vision — areas where I have gained hands-on experience through academic research projects and self-driven learning. I enjoy exploring how data and intelligent systems can solve real-world problems, and I am always looking for opportunities to grow, collaborate and build meaningful technology.",
+    "Today I work as an Advanced ICT Officer at CNRS-UNHCR, where I teach students and apply technology in a humanitarian context — and I have written a free, university-level curriculum of 273 lectures on AI, Machine Learning and Deep Learning."
+  ],
+
+  "researchStatement": "My research interests centre on computer vision and deep learning for real-world safety and human understanding — particularly in the context of developing countries such as Bangladesh. My undergraduate research tackled pedestrian detection with risk-level classification for Bangladeshi road scenes and vision-based vehicle over-speed detection, and my current work studies real-time facial-expression analysis with YOLOv11. I am seeking a PhD position where I can develop robust, efficient and fair vision models that work reliably outside benchmark conditions — for road safety, humanitarian applications and education.",
+
+  "interests": [
+    { "title": "Computer Vision", "icon": "👁️", "text": "Object detection, pedestrian and vehicle analysis, facial expression recognition, real-time vision with YOLO-family models." },
+    { "title": "Machine Learning & Deep Learning", "icon": "🧠", "text": "CNNs, transfer learning, efficient models and practical deep learning for deployment." },
+    { "title": "Artificial Intelligence", "icon": "🤖", "text": "Intelligent systems that solve real-world problems, AI for social good and humanitarian contexts." },
+    { "title": "Image Processing", "icon": "🖼️", "text": "Classical and learned image analysis pipelines, preprocessing and feature extraction." },
+    { "title": "Data Science", "icon": "📊", "text": "Statistics, data analysis, visualisation and end-to-end data pipelines." },
+    { "title": "Algorithms & Competitive Programming", "icon": "⚡", "text": "Data structures, algorithm design and complexity — a decade of contest problem solving." }
+  ],
+
+  "stats": [
+    { "value": 10, "suffix": "+", "label": "Years of competitive programming" },
+    { "value": 39, "suffix": "", "label": "Certificates & credentials" },
+    { "value": 273, "suffix": "", "label": "AI lectures authored" },
+    { "value": 8, "suffix": "", "label": "Software projects" }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science & Engineering",
+      "institution": "Ahsanullah University of Science and Technology (AUST)",
+      "location": "Dhaka, Bangladesh",
+      "period": "April 2016 – 2025",
+      "details": ["CGPA: 2.325 / 4.00", "Graduation result published: 19 January 2025", "Undergraduate research: pedestrian detection & risk-level classification; vehicle over-speed detection"]
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC)",
+      "institution": "Kurigram Govt. College",
+      "location": "Kurigram, Bangladesh",
+      "period": "2015",
+      "details": ["GPA: 5.00 / 5.00"]
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "institution": "Kurigram Govt. High School",
+      "location": "Kurigram, Bangladesh",
+      "period": "2013",
+      "details": ["GPA: 5.00 / 5.00"]
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Advanced ICT Officer",
+      "org": "CNRS-UNHCR",
+      "period": "Present",
+      "current": true,
+      "points": ["Teaching students digital and ICT skills.", "Applying technology to support education and humanitarian work."]
+    },
+    {
+      "role": "Research Assistant (RA)",
+      "org": "Robo Tech Valley, Dhaka",
+      "period": "",
+      "points": ["Research on AI/ML, computer vision and deep learning projects."]
+    },
+    {
+      "role": "Competitive Programmer",
+      "org": "Codeforces, CodeChef, HackerRank and other platforms",
+      "period": "April 2014 – Present",
+      "current": true,
+      "points": ["10+ years of experience solving algorithmic problems in online contests.", "Recognised for outstanding performance in online programming contests."]
+    },
+    {
+      "role": "MVP Program Trainee",
+      "org": "Microsoft, Dhaka",
+      "period": "",
+      "points": ["Participated in a workshop on AI, computer vision and Microsoft Azure."]
+    },
+    {
+      "role": "GDG TensorFlow Workshop",
+      "org": "Google Developer Group, Dhaka",
+      "period": "",
+      "points": ["Attended a full-day workshop on TensorFlow, AI, machine learning and data mining."]
+    }
+  ],
+
+  "research": [
+    {
+      "title": "Emotion Detection at Lightning Speed: Leveraging YOLOv11 for Facial Expression Analysis",
+      "type": "Research paper",
+      "status": "In publication process",
+      "year": "",
+      "tags": ["Computer Vision", "YOLOv11", "Facial Expression Recognition", "Real-time"],
+      "description": "Real-time facial expression analysis using the YOLOv11 detection architecture.",
+      "links": []
+    },
+    {
+      "title": "Pedestrian Detection and Risk Level Classification in Perspective of Bangladesh",
+      "type": "Undergraduate thesis",
+      "status": "Not yet published",
+      "year": "",
+      "tags": ["Computer Vision", "Object Detection", "Road Safety", "Bangladesh"],
+      "description": "Detecting pedestrians in Bangladeshi traffic scenes and classifying their risk level to support road-safety systems.",
+      "links": []
+    },
+    {
+      "title": "Car Speed Checker and Over-Speed Penalty System",
+      "type": "Undergraduate thesis",
+      "status": "Not yet published",
+      "year": "",
+      "tags": ["Computer Vision", "Vehicle Speed Estimation", "Intelligent Transport"],
+      "description": "A vision-based system to estimate vehicle speed and support over-speed penalties.",
+      "links": []
+    }
+  ],
+
+  "teaching": [
+    {
+      "title": "The AI Lecture Hall",
+      "description": "A free, university-level curriculum of 273 lectures across 10 tracks — from AI foundations and mathematics to transformers, diffusion models, reinforcement learning, MLOps and AI ethics — written as classroom lectures with derivations, code and exercises.",
+      "url": "https://ai-lecture-hall.vercel.app",
+      "highlights": ["273 lectures", "10 learning tracks", "Classroom-style lectures", "Maths, code & exercises"]
+    },
+    {
+      "title": "Teaching at CNRS-UNHCR",
+      "description": "Teaching students ICT and digital skills as Advanced ICT Officer.",
+      "url": "",
+      "highlights": ["Classroom teaching", "Digital skills"]
+    }
+  ],
+
+  "skills": [
+    { "group": "Programming Languages", "level": "Proficient", "items": ["C", "C++", "Java", "Python", "R", "SQL"] },
+    { "group": "AI & Machine Learning", "level": "Proficient", "items": ["Machine Learning", "Deep Learning", "Neural Networks", "Computer Vision", "TensorFlow", "YOLO"] },
+    { "group": "Web & Backend", "level": "Proficient", "items": ["React.js", "Node.js", "ASP.NET MVC", "ASP.NET Core Web API"] },
+    { "group": "Also familiar with", "level": "Familiar", "items": ["HTML", "CSS", "JavaScript", "Bootstrap", "Mobile App Development", "UX/UI Design", "Git & GitHub", "Tableau", "PL/SQL"] }
+  ],
+
+  "projects": [
+    { "title": "AUST-ICPC", "category": "Web", "description": "Web application for the AUST ICPC community.", "tech": ["HTML", "CSS", "PHP", "MySQL", "XAMPP"], "code": "https://github.com/Apurba94/Austicpc", "live": "" },
+    { "title": "Portfolio of Janin A Apurba (previous version)", "category": "Web", "description": "Earlier personal portfolio website.", "tech": ["HTML", "CSS", "JavaScript", "PHP"], "code": "https://github.com/Apurba94/Portfolio_updated", "live": "https://apurba94.github.io/Portfolio_updated/" },
+    { "title": "Auto-Parts Management System", "category": "Desktop", "description": "Windows application for managing an auto-parts shop.", "tech": ["Java", "Swing", "Apache Derby", "NetBeans"], "code": "https://github.com/Apurba94/Auto_parts_shop_Java", "live": "" },
+    { "title": "Shop Management System", "category": "Mobile", "description": "Android application for shop management.", "tech": ["Kotlin", "Android Studio"], "code": "https://github.com/Apurba94/Auto-Parts-Shop-Kotlin", "live": "" },
+    { "title": "Contact Management System", "category": "Database", "description": "Database application for managing contacts.", "tech": ["Java", "MSSQL", "NetBeans"], "code": "https://github.com/TanvirAS98/ContactManagementSystem", "live": "" },
+    { "title": "Ride Sharing Management System", "category": "Database", "description": "Database-driven ride-sharing management system.", "tech": ["Oracle", "PL/SQL"], "code": "https://github.com/Apurba94/PL_SQL_Ride_sharing-project", "live": "" },
+    { "title": "DARKO FIGHTER — 2D Game", "category": "Game", "description": "2D fighting game built from scratch.", "tech": ["C", "C++", "iGraphics"], "code": "https://github.com/Apurba94/Darko_Fighter_Game-Development", "live": "" },
+    { "title": "Computer Graphics Project", "category": "Graphics", "description": "Interactive computer-graphics project.", "tech": ["JavaScript", "HTML", "NetBeans"], "code": "https://github.com/TanvirAS98/Computer-Graphics-Project", "live": "" }
+  ],
+
+  "awards": [
+    { "title": "Competitive Programming Awards", "year": "", "text": "Recognised for outstanding performance in online programming contests across various platforms." },
+    { "title": "Talent Pool Scholarship", "year": "March 2008", "text": "Received a Talent Pool scholarship in Class 5; ranked 4th in Kurigram District." }
+  ],
+
+  "certificatesDriveLink": "https://drive.google.com/file/d/1ZtTrdRvy5aP6SnO6LRi9LS7rbMhhSLzo/view?usp=sharing",
+
+  "certificates": [
+    { "title": "Data Scientist Career Track", "issuer": "365 Data Science", "date": "2022-11-18", "id": "DD-5EA8905997", "topic": "Data Science", "image": "cert-028.jpg", "url": "https://learn.365datascience.com/c/a50678781c/", "featured": true, "note": "Exams: ML in Python, Deep Learning, SQL, Mathematics, Python, Probability, Statistics, Data Science Basics" },
+    { "title": "Advanced Learning Algorithms", "issuer": "DeepLearning.AI & Stanford Online (Coursera)", "date": "", "id": "FL8YQGRKVBXG", "topic": "Machine Learning", "image": "", "url": "https://coursera.org/share/7e66ff52f42131751e74138d024bb7e6", "featured": true },
+    { "title": "Unsupervised Learning, Recommenders, Reinforcement Learning", "issuer": "DeepLearning.AI & Stanford Online (Coursera)", "date": "", "id": "ZWQZ6NH39SDJ", "topic": "Machine Learning", "image": "", "url": "https://coursera.org/share/362fa78c14a6697b30a2c97e1a3721c8", "featured": true },
+    { "title": "Divide and Conquer, Sorting and Searching, and Randomized Algorithms", "issuer": "Stanford University (Coursera)", "date": "2023-10-19", "id": "P5Q32DHMY98V", "topic": "Algorithms", "image": "cert-025.jpg", "url": "https://coursera.org/verify/P5Q32DHMY98V", "featured": true },
+    { "title": "Advanced Algorithms and Complexity", "issuer": "University of California San Diego (Coursera)", "date": "2023-08-16", "id": "KBU9LT9VLHUD", "topic": "Algorithms", "image": "cert-024.jpg", "url": "https://coursera.org/verify/KBU9LT9VLHUD", "featured": true },
+    { "title": "Object-Oriented Data Structures in C++", "issuer": "University of Illinois Urbana-Champaign (Coursera)", "date": "2023-08-17", "id": "2EDZ4XBHE754", "topic": "Algorithms", "image": "cert-022.jpg", "url": "https://coursera.org/verify/2EDZ4XBHE754", "featured": true },
+    { "title": "Capstone: Retrieving, Processing, and Visualizing Data with Python", "issuer": "University of Michigan (Coursera)", "date": "", "id": "Q8FVWV6BRBZP", "topic": "Data Science", "image": "", "url": "https://coursera.org/share/f52034e7083b0c9904d91d565d14687d", "featured": false },
+    { "title": "Python Basics", "issuer": "University of Michigan (Coursera)", "date": "2023-08-12", "id": "P64XZA4MSQ9Q", "topic": "Programming", "image": "cert-026.jpg", "url": "https://coursera.org/verify/P64XZA4MSQ9Q", "featured": false },
+    { "title": "Introduction to DevOps", "issuer": "IBM (Coursera)", "date": "2023-09-01", "id": "GYNEKC3BC67K", "topic": "Software Engineering", "image": "cert-023.jpg", "url": "https://coursera.org/verify/GYNEKC3BC67K", "featured": false },
+    { "title": "MLOps Bootcamp", "issuer": "DataMites", "date": "2023-07-20", "id": "", "topic": "Machine Learning", "image": "cert-029.jpg", "url": "https://drive.google.com/file/d/1rxdQJdeHtUICDsdqXRPPObPKygO0yxf8/view?usp=sharing", "featured": false },
+    { "title": "Data Structures and Algorithms (Microlearning)", "issuer": "Board Infinity", "date": "2023-07-15", "id": "BI-2011115431995", "topic": "Algorithms", "image": "cert-027.jpg", "url": "https://drive.google.com/file/d/1CU1aJlOdY6VDLFQcvRjuHnMCwicbAHbw/view?usp=sharing", "featured": false },
+    { "title": "Full Stack Development (Microlearning)", "issuer": "Board Infinity", "date": "2023-07-13", "id": "BI-2011115431982", "topic": "Software Engineering", "image": "cert-030.jpg", "url": "https://drive.google.com/file/d/1nGvyExWYP7wWi1PjjjVd7BC3exmhHJ00/view?usp=sharing", "featured": false },
+    { "title": "Game Development using PyGame", "issuer": "GUVI Geek Networks", "date": "2022-10-29", "id": "6Fw1E0965u72Y0X657", "topic": "Programming", "image": "cert-031.jpg", "url": "https://www.guvi.in/certificate?id=6Fw1E0965u72Y0X657", "featured": false },
+    { "title": "Convolutional Neural Networks with TensorFlow in Python", "issuer": "365 Data Science", "date": "2022-11-21", "id": "CC-448A6A999A", "topic": "Deep Learning", "image": "cert-009.jpg", "url": "https://learn.365datascience.com/c/acd81164cf/", "featured": true },
+    { "title": "Deep Learning with TensorFlow 2", "issuer": "365 Data Science", "date": "2022-11-11", "id": "CC-A74C0B2C7E", "topic": "Deep Learning", "image": "cert-035.jpg", "url": "", "featured": false },
+    { "title": "Machine Learning in Python", "issuer": "365 Data Science", "date": "2022-11-11", "id": "CC-7F46F9D617", "topic": "Machine Learning", "image": "cert-032.jpg", "url": "", "featured": false },
+    { "title": "Machine Learning with Decision Trees and Random Forests", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-34180551C5", "topic": "Machine Learning", "image": "cert-014.jpg", "url": "https://learn.365datascience.com/c/beba6c1dda/", "featured": false },
+    { "title": "Machine Learning with K-Nearest Neighbors", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-0B120E48F0", "topic": "Machine Learning", "image": "cert-001.jpg", "url": "https://learn.365datascience.com/c/e282e1aee5/", "featured": false },
+    { "title": "Machine Learning with Ridge and Lasso Regression", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-48BF454870", "topic": "Machine Learning", "image": "cert-007.jpg", "url": "https://learn.365datascience.com/c/9c49b958da/", "featured": false },
+    { "title": "Machine Learning with Naïve Bayes", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-2E7D7E2EA5", "topic": "Machine Learning", "image": "cert-002.jpg", "url": "https://learn.365datascience.com/c/ddcd778b6a/", "featured": false },
+    { "title": "Machine Learning in Excel", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-94A80C7229", "topic": "Machine Learning", "image": "cert-008.jpg", "url": "", "featured": false },
+    { "title": "Linear Algebra and Feature Selection", "issuer": "365 Data Science", "date": "2022-11-21", "id": "CC-EB9FBB807B", "topic": "Mathematics & Statistics", "image": "cert-020.jpg", "url": "https://learn.365datascience.com/c/85789ea3a2/", "featured": false },
+    { "title": "Mathematics", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-C849A117DD", "topic": "Mathematics & Statistics", "image": "cert-018.jpg", "url": "", "featured": false },
+    { "title": "Probability", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-5DE88AAE35", "topic": "Mathematics & Statistics", "image": "cert-006.jpg", "url": "", "featured": false },
+    { "title": "Statistics", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-2F80B1B7CD", "topic": "Mathematics & Statistics", "image": "cert-003.jpg", "url": "", "featured": false },
+    { "title": "Introduction to Data and Data Science", "issuer": "365 Data Science", "date": "2022-11-08", "id": "CC-61585410EF", "topic": "Data Science", "image": "cert-034.jpg", "url": "", "featured": false },
+    { "title": "The Complete Data Visualization Course with Python, R, Tableau, and Excel", "issuer": "365 Data Science", "date": "2022-11-12", "id": "CC-E7001073CD", "topic": "Data Science", "image": "cert-036.jpg", "url": "", "featured": false },
+    { "title": "SQL + Tableau + Python", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-D75C03F60B", "topic": "Data Science", "image": "cert-019.jpg", "url": "", "featured": false },
+    { "title": "Introduction to Tableau", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-EB81839B9D", "topic": "Data Science", "image": "cert-021.jpg", "url": "", "featured": false },
+    { "title": "SQL", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-4423D92F7D", "topic": "Data Science", "image": "cert-010.jpg", "url": "https://learn.365datascience.com/c/2cfdf13651/", "featured": false },
+    { "title": "Python Programmer Bootcamp", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-746700C319", "topic": "Programming", "image": "cert-013.jpg", "url": "https://learn.365datascience.com/c/88390e3e66/", "featured": false },
+    { "title": "Introduction to Python", "issuer": "365 Data Science", "date": "2022-11-08", "id": "CC-86AD6C7659", "topic": "Programming", "image": "cert-033.jpg", "url": "", "featured": false },
+    { "title": "Introduction to R Programming", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-3C98567C57", "topic": "Programming", "image": "cert-004.jpg", "url": "https://learn.365datascience.com/c/0e8d215156/", "featured": false },
+    { "title": "Introduction to Jupyter", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-5A161DB35E", "topic": "Programming", "image": "cert-005.jpg", "url": "https://learn.365datascience.com/c/38487af512/", "featured": false },
+    { "title": "Git and GitHub", "issuer": "365 Data Science", "date": "2022-11-16", "id": "CC-B7A5AE885E", "topic": "Software Engineering", "image": "cert-017.jpg", "url": "https://learn.365datascience.com/c/37665c4ba7/", "featured": false },
+    { "title": "AI Applications for Business Success", "issuer": "365 Data Science", "date": "2022-11-19", "id": "CC-61944AF70D", "topic": "AI & Business", "image": "cert-011.jpg", "url": "https://learn.365datascience.com/c/18215e8e6e/", "featured": false },
+    { "title": "Product Management for AI & Data Science", "issuer": "365 Data Science", "date": "2022-11-19", "id": "CC-A7999D71B4", "topic": "AI & Business", "image": "cert-015.jpg", "url": "https://learn.365datascience.com/c/54ea1dc6c4/", "featured": false },
+    { "title": "Project Management", "issuer": "365 Data Science", "date": "2022-11-17", "id": "CC-AD89D3D571", "topic": "AI & Business", "image": "cert-016.jpg", "url": "https://learn.365datascience.com/c/b9be1e0154/", "featured": false },
+    { "title": "Blockchain for Business", "issuer": "365 Data Science", "date": "2022-11-18", "id": "CC-131253FB18", "topic": "AI & Business", "image": "cert-012.jpg", "url": "https://learn.365datascience.com/c/baaa34e14f/", "featured": false }
+  ],
+
+  "profiles": {
+    "_help": "Replace each default link with your own profile URL when you create the account.",
+    "research": [
+      { "name": "ORCID", "url": "https://orcid.org/", "icon": "orcid" },
+      { "name": "Google Scholar", "url": "https://scholar.google.com/", "icon": "scholar" },
+      { "name": "ResearchGate", "url": "https://www.researchgate.net/", "icon": "researchgate" },
+      { "name": "Academia.edu", "url": "https://www.academia.edu/", "icon": "academia" },
+      { "name": "Semantic Scholar", "url": "https://www.semanticscholar.org/", "icon": "semantic" },
+      { "name": "Scopus Author ID", "url": "https://www.scopus.com/", "icon": "scopus" },
+      { "name": "Web of Science (ResearcherID)", "url": "https://www.webofscience.com/", "icon": "wos" },
+      { "name": "dblp", "url": "https://dblp.org/", "icon": "dblp" },
+      { "name": "arXiv", "url": "https://arxiv.org/", "icon": "arxiv" }
+    ],
+    "professional": [
+      { "name": "GitHub", "url": "https://github.com/Apurba94", "icon": "github" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/", "icon": "linkedin" },
+      { "name": "Kaggle", "url": "https://www.kaggle.com/", "icon": "kaggle" },
+      { "name": "Hugging Face", "url": "https://huggingface.co/", "icon": "huggingface" },
+      { "name": "Medium", "url": "https://medium.com/", "icon": "medium" },
+      { "name": "YouTube", "url": "https://www.youtube.com/", "icon": "youtube" },
+      { "name": "Facebook", "url": "https://www.facebook.com/", "icon": "facebook" },
+      { "name": "X (Twitter)", "url": "https://x.com/", "icon": "x" }
+    ],
+    "coding": [
+      { "name": "StopStalk", "url": "https://www.stopstalk.com/user/profile/studywithjaninYT", "icon": "stopstalk" },
+      { "name": "Codeforces", "url": "https://codeforces.com/", "icon": "codeforces" },
+      { "name": "CodeChef", "url": "https://www.codechef.com/", "icon": "codechef" },
+      { "name": "HackerRank", "url": "https://www.hackerrank.com/", "icon": "hackerrank" },
+      { "name": "LeetCode", "url": "https://leetcode.com/", "icon": "leetcode" },
+      { "name": "AtCoder", "url": "https://atcoder.jp/", "icon": "atcoder" },
+      { "name": "UVa Online Judge", "url": "https://onlinejudge.org/", "icon": "uva" },
+      { "name": "Toph", "url": "https://toph.co/", "icon": "toph" }
+    ]
+  },
+
+  "references": [
+    { "name": "Dr. Md. Shahriar Mahbub", "title": "Professor", "dept": "Department of CSE, Ahsanullah University of Science and Technology", "email": "shahriar.cse@aust.edu" },
+    { "name": "Dr. Taslim Taher", "title": "Assistant Professor", "dept": "Department of CSE, Ahsanullah University of Science and Technology", "email": "taslim.cse@aust.edu" },
+    { "name": "Mr. Md. Reasad Zaman Chowdhury", "title": "Lecturer Grade-I", "dept": "Department of CSE, Ahsanullah University of Science and Technology", "email": "reasad.cse@aust.edu" },
+    { "name": "Ms. Tanjila Broti", "title": "Lecturer Grade-I", "dept": "Department of CSE, Ahsanullah University of Science and Technology", "email": "broti.cse@aust.edu" }
+  ],
+
+  "news": [
+    { "date": "2026-09-28", "text": "Launched this portfolio and published The AI Lecture Hall — 273 free lectures on AI, ML and Deep Learning.", "url": "https://ai-lecture-hall.vercel.app" },
+    { "date": "2025-01-19", "text": "Graduated with a B.Sc. in Computer Science & Engineering from Ahsanullah University of Science and Technology.", "url": "" },
+    { "date": "", "text": "Working on the paper “Emotion Detection at Lightning Speed: Leveraging YOLOv11 for Facial Expression Analysis” (in publication process).", "url": "" }
+  ]
+}
