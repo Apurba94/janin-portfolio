@@ -6,7 +6,7 @@
   "credentials": "CSE, AUST",
   "currentRole": "Advanced ICT Officer",
   "currentOrg": "CNRS-UNHCR",
-  "tagline": "AI & Computer Vision researcher-in-the-making · Competitive programmer · Educator",
+  "tagline": "·Data Scientist · ML/DL/AI & Computer Vision researcher · Competitive programmer · Educator",
   "typedRoles": [
     "Aspiring PhD Researcher in AI",
     "Computer Vision Enthusiast",
@@ -18,7 +18,7 @@
   "email": "japurba97@gmail.com",
   "phone": "+8801938328401",
   "photo": "images/profile.jpg",
-  "openTo": "Seeking a fully funded PhD in AI, Computer Vision & Machine Learning",
+  "openTo": "Seeking a fully funded PhD in AI",
   "siteUrl": "https://janin-a-apurba.vercel.app",
 
   "summary": [
@@ -73,14 +73,14 @@
     {
       "role": "Advanced ICT Officer",
       "org": "CNRS-UNHCR",
-      "period": "Present",
+      "period": "26 october,2025 - Present",
       "current": true,
       "points": ["Teaching students digital and ICT skills.", "Applying technology to support education and humanitarian work."]
     },
     {
       "role": "Research Assistant (RA)",
       "org": "Robo Tech Valley, Dhaka",
-      "period": "",
+      "period": "13 march,2025 - 31 July,2025",
       "points": ["Research on AI/ML, computer vision and deep learning projects."]
     },
     {
@@ -131,7 +131,17 @@
       "tags": ["Computer Vision", "Vehicle Speed Estimation", "Intelligent Transport"],
       "description": "A vision-based system to estimate vehicle speed and support over-speed penalties.",
       "links": []
+    },
+   {
+      "title": "Brain tumor detection and Classifications",
+      "type": "Undergraduate thesis",
+      "status": "Not yet published",
+      "year": "",
+      "tags": ["Computer Vision", "brain tumor", "detection and classifications"],
+      "description": "A vision-based system to detect and classify.",
+      "links": []
     }
+
   ],
 
   "teaching": [

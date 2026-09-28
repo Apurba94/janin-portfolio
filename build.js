@@ -28,7 +28,11 @@ function fmtDate(d) {
 const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const ext = (url) => url ? ' target="_blank" rel="noopener"' : '';
 
-function rmrf(p) { if (fs.existsSync(p)) fs.rmSync(p, { recursive: true, force: true }); }
+/* Empty the output folder rather than deleting it, so a locked folder (open in Explorer or a server) does not break the build. */
+function rmrf(p) {
+  if (!fs.existsSync(p)) return;
+  for (const e of fs.readdirSync(p)) fs.rmSync(path.join(p, e), { recursive: true, force: true, maxRetries: 3 });
+}
 function copyDir(src, dst) {
   if (!fs.existsSync(src)) return;
   fs.mkdirSync(dst, { recursive: true });
