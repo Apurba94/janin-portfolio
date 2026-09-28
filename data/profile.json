@@ -6,7 +6,7 @@
   "credentials": "CSE, AUST",
   "currentRole": "Advanced ICT Officer",
   "currentOrg": "CNRS-UNHCR",
-  "tagline": "·Data Scientist · ML/DL/AI & Computer Vision researcher · Competitive programmer · Educator",
+  "tagline": "Data Scientist · ML/DL/AI & Computer Vision researcher · Competitive programmer · Educator",
   "typedRoles": [
     "Aspiring PhD Researcher in AI",
     "Computer Vision Enthusiast",
@@ -73,14 +73,14 @@
     {
       "role": "Advanced ICT Officer",
       "org": "CNRS-UNHCR",
-      "period": "26 october,2025 - Present",
+      "period": "26 Oct 2025 – Present",
       "current": true,
       "points": ["Teaching students digital and ICT skills.", "Applying technology to support education and humanitarian work."]
     },
     {
       "role": "Research Assistant (RA)",
       "org": "Robo Tech Valley, Dhaka",
-      "period": "13 march,2025 - 31 July,2025",
+      "period": "13 Mar 2025 – 31 Jul 2025",
       "points": ["Research on AI/ML, computer vision and deep learning projects."]
     },
     {
@@ -133,12 +133,12 @@
       "links": []
     },
    {
-      "title": "Brain tumor detection and Classifications",
+      "title": "Brain Tumor Detection and Classification",
       "type": "Undergraduate thesis",
       "status": "Not yet published",
       "year": "",
-      "tags": ["Computer Vision", "brain tumor", "detection and classifications"],
-      "description": "A vision-based system to detect and classify.",
+      "tags": ["Computer Vision", "Medical Imaging", "Brain Tumor", "Classification"],
+      "description": "A computer-vision system to detect brain tumors in medical images and classify them.",
       "links": []
     }
 
