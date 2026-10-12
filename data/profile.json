@@ -229,12 +229,12 @@
   ],
 
   "profiles": {
-    "_help": "Replace each default link with your own profile URL when you create the account.",
+    "_help": "Replace each default link with your own profile URL when you create the account. Links that point only to a site's home page are hidden on the website until you add your own profile URL.",
     "research": [
-      { "name": "ORCID", "url": "https://orcid.org/", "icon": "orcid" },
-      { "name": "Google Scholar", "url": "https://scholar.google.com/", "icon": "scholar" },
-      { "name": "ResearchGate", "url": "https://www.researchgate.net/", "icon": "researchgate" },
-      { "name": "Academia.edu", "url": "https://www.academia.edu/", "icon": "academia" },
+      { "name": "ORCID", "url": "https://orcid.org/0009-0002-8576-284X", "icon": "orcid" },
+      { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=rCCwYnwAAAAJ", "icon": "scholar" },
+      { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Janin-Apurba", "icon": "researchgate" },
+      { "name": "Academia.edu", "url": "https://aust.academia.edu/JaninAApurba", "icon": "academia" },
       { "name": "Semantic Scholar", "url": "https://www.semanticscholar.org/", "icon": "semantic" },
       { "name": "Scopus Author ID", "url": "https://www.scopus.com/", "icon": "scopus" },
       { "name": "Web of Science (ResearcherID)", "url": "https://www.webofscience.com/", "icon": "wos" },

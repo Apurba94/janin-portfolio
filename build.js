@@ -443,10 +443,11 @@ function news() {
 }
 
 function profiles() {
-  const group = (title, desc, list) => `<div class="prof-group reveal">
+  const real = list => list.filter(p => !/^https?:\/\/[^/]+\/?$/.test(p.url));
+  const group = (title, desc, all) => { const list = real(all); return list.length ? `<div class="prof-group reveal">
     <h3>${title}</h3><p class="muted small">${desc}</p>
     <div class="prof-grid">${list.map(p => `<a class="prof" href="${esc(p.url)}" target="_blank" rel="noopener">${badge(p.icon)}<span>${esc(p.name)}</span>${icon('ext', 'prof-ext')}</a>`).join('')}</div>
-  </div>`;
+  </div>` : ''; };
   const pr = P.profiles;
   return `<section class="section" id="profiles">
   <div class="wrap">
