@@ -261,6 +261,7 @@ function research() {
         <div class="paper-body">
           <div class="paper-meta"><span class="tag">${esc(r.type)}</span><span class="status">${esc(r.status)}</span>${r.year ? `<span class="muted">${esc(r.year)}</span>` : ''}</div>
           <h3>${esc(r.title)}</h3>
+          ${r.authors ? `<p class="muted">${esc(r.authors)}</p>` : ''}${r.venue ? `<p class="muted"><i>${esc(r.venue)}</i></p>` : ''}
           <p class="muted">${esc(r.description)}</p>
           <div class="chips">${(r.tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>
           ${(r.links || []).length ? `<div class="paper-links">${r.links.map(l => `<a class="btn btn-sm btn-ghost" href="${esc(l.url)}" target="_blank" rel="noopener">${icon('ext')} ${esc(l.label)}</a>`).join('')}</div>` : ''}
@@ -453,7 +454,7 @@ function profiles() {
     <div class="prof-wrap">
       ${group('Research identity', 'ORCID, citation indexes and research networks', pr.research)}
       ${group('Professional', 'Code, datasets, models and writing', pr.professional)}
-      ${group('Competitive programming', '10+ years of contests and problem solving', pr.coding)}
+      ${group('Competitive programming', '12+ years of contests and problem solving (since 2014)', pr.coding)}
     </div>
   </div>
 </section>`;
@@ -532,7 +533,7 @@ function jsonLd() {
 function homePage() {
   return head({
     title: `${P.name} — AI & Computer Vision | Portfolio`,
-    description: `${P.name}: ${P.degree}. ${P.currentRole} at ${P.currentOrg}. Research in computer vision and deep learning, ${P.certificates.length} certifications, 10+ years of competitive programming. Seeking a funded PhD in AI.`,
+    description: `${P.name}: ${P.degree}. ${P.currentRole} at ${P.currentOrg}. Research in computer vision and deep learning (published by Springer Nature, 2026), ${P.certificates.length} certifications, 12+ years of competitive programming. Seeking a funded PhD in AI.`,
     canonical: '/', extra: jsonLd()
   }) + `
 <body>
@@ -588,7 +589,7 @@ ${header('cv')}
     ${sec('Summary', P.summary.map(p => `<p>${esc(p)}</p>`).join(''))}
     ${sec('Research interests', `<p>${P.interests.map(i => esc(i.title)).join(' · ')}</p><p>${esc(P.researchStatement)}</p>`)}
     ${sec('Education', P.education.map(e => `<div class="cv-row"><div><b>${esc(e.degree)}</b><br>${esc(e.institution)}, ${esc(e.location)}${e.details && e.details.length ? `<ul>${e.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul>` : ''}</div><span>${esc(e.period)}</span></div>`).join(''))}
-    ${sec('Research &amp; publications', `<ol>${P.research.map(r => `<li><b>${esc(r.title)}</b> — ${esc(r.type)} <i>(${esc(r.status)})</i></li>`).join('')}</ol>`)}
+    ${sec('Research &amp; publications', `<ol>${P.research.map(r => `<li><b>${esc(r.title)}</b> — ${esc(r.type)} <i>(${esc(r.status)})</i>${r.authors ? `<br>${esc(r.authors)}` : ''}${r.venue ? `<br><i>${esc(r.venue)}</i>` : ''}${(r.links || []).map(l => ` · <a href="${esc(l.url)}">${esc(l.label)}</a>`).join('')}</li>`).join('')}</ol>`)}
     ${sec('Experience', P.experience.map(e => `<div class="cv-row"><div><b>${esc(e.role)}</b> — ${esc(e.org)}<ul>${e.points.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div><span>${esc(e.period)}</span></div>`).join(''))}
     ${sec('Teaching &amp; outreach', P.teaching.map(t => `<p><b>${esc(t.title)}</b>${t.url ? ` (<a href="${esc(t.url)}">${esc(t.url.replace(/^https?:\/\//, ''))}</a>)` : ''} — ${esc(t.description)}</p>`).join(''))}
     ${sec('Skills', P.skills.map(g => `<p><b>${esc(g.group)}:</b> ${g.items.map(esc).join(', ')}</p>`).join(''))}
