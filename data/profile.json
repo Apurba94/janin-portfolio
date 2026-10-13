@@ -169,6 +169,7 @@
   ],
 
   "projects": [
+    { "title": "Zone Analyst", "category": "Web", "description": "Blue-zone and fight analytics for PUBG Mobile: a live zone simulator, probability chart, combat math and playbook, also as a Windows app (.exe) and an Android app (.apk), backed by a Python statistical research toolkit.", "tech": ["JavaScript", "Python", "Electron", "Capacitor", "Vercel"], "code": "https://github.com/Apurba94/zone-analyst", "live": "https://zoneanalyst.vercel.app" },
     { "title": "AUST-ICPC", "category": "Web", "description": "Web application for the AUST ICPC community.", "tech": ["HTML", "CSS", "PHP", "MySQL", "XAMPP"], "code": "https://github.com/Apurba94/Austicpc", "live": "" },
     { "title": "Portfolio of Janin A Apurba (previous version)", "category": "Web", "description": "Earlier personal portfolio website.", "tech": ["HTML", "CSS", "JavaScript", "PHP"], "code": "https://github.com/Apurba94/Portfolio_updated", "live": "https://apurba94.github.io/Portfolio_updated/" },
     { "title": "Auto-Parts Management System", "category": "Desktop", "description": "Windows application for managing an auto-parts shop.", "tech": ["Java", "Swing", "Apache Derby", "NetBeans"], "code": "https://github.com/Apurba94/Auto_parts_shop_Java", "live": "" },
