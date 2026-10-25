@@ -187,6 +187,12 @@
       "highlights": ["273 lectures", "10 learning tracks", "Classroom-style lectures", "Maths, code & exercises"]
     },
     {
+      "title": "Machine Learning: Basics to Intermediate (in Bangla)",
+      "description": "A four-part video course (about 1 h 48 min) that teaches machine learning in Bangla with English subtitles, from first principles to modern AI. Every idea is worked out by hand with real numbers, then coded in Python (scikit-learn, PyTorch); each part ends with a quiz and homework. Runs on JaniX, my learning platform.",
+      "url": "https://janix-lms.vercel.app",
+      "highlights": ["4 video lessons", "Bangla, English subtitles", "Quizzes & homework", "Python demos"]
+    },
+    {
       "title": "Teaching at CNRS-UNHCR",
       "description": "Teaching students ICT and digital skills as Advanced ICT Officer.",
       "url": "",
@@ -198,10 +204,11 @@
     { "group": "Programming Languages", "level": "Proficient", "items": ["C", "C++", "Java", "Python", "R", "SQL"] },
     { "group": "AI & Machine Learning", "level": "Proficient", "items": ["Machine Learning", "Deep Learning", "Neural Networks", "Computer Vision", "TensorFlow", "YOLO"] },
     { "group": "Web & Backend", "level": "Proficient", "items": ["React.js", "Node.js", "ASP.NET MVC", "ASP.NET Core Web API"] },
-    { "group": "Also familiar with", "level": "Familiar", "items": ["HTML", "CSS", "JavaScript", "Bootstrap", "Mobile App Development", "UX/UI Design", "Git & GitHub", "Tableau", "PL/SQL"] }
+    { "group": "Also familiar with", "level": "Familiar", "items": ["HTML", "CSS", "JavaScript", "Bootstrap", "Mobile App Development", "UX/UI Design", "Git & GitHub", "Tableau", "PL/SQL", "Django"] }
   ],
 
   "projects": [
+    { "title": "JaniX — Learning Platform", "category": "Web", "description": "A full learning-management system: course catalogue with video, PDF and text lessons, quizzes and graded assignments, certificates with QR verification, instructor and admin portals, payments (cards, bKash, Nagad and Rocket via SSLCOMMERZ, plus manual verification) and a REST API. Deployed on Vercel with Neon Postgres and object storage; 153 automated tests.", "tech": ["Python", "Django", "PostgreSQL", "Neon", "Vercel"], "code": "", "live": "https://janix-lms.vercel.app" },
     { "title": "Zone Analyst", "category": "Web", "description": "Blue-zone and fight analytics for PUBG Mobile: a live zone simulator, probability chart, combat math and playbook, also as a Windows app (.exe) and an Android app (.apk), backed by a Python statistical research toolkit.", "tech": ["JavaScript", "Python", "Electron", "Capacitor", "Vercel"], "code": "https://github.com/Apurba94/zone-analyst", "live": "https://zoneanalyst.vercel.app" },
     { "title": "AUST-ICPC", "category": "Web", "description": "Web application for the AUST ICPC community.", "tech": ["HTML", "CSS", "PHP", "MySQL", "XAMPP"], "code": "https://github.com/Apurba94/Austicpc", "live": "" },
     { "title": "Portfolio of Janin A Apurba (previous version)", "category": "Web", "description": "Earlier personal portfolio website.", "tech": ["HTML", "CSS", "JavaScript", "PHP"], "code": "https://github.com/Apurba94/Portfolio_updated", "live": "https://apurba94.github.io/Portfolio_updated/" },
@@ -305,6 +312,7 @@
   ],
 
   "news": [
+    { "date": "2026-10-25", "text": "Launched JaniX, my learning platform with courses, quizzes, certificates and payments, and recorded its first course: Machine Learning, Basics to Intermediate, in Bangla with English subtitles.", "url": "https://janix-lms.vercel.app" },
     { "date": "2026-10-13", "text": "Submitted our paper “Do Newer Nano YOLO Detectors Help Blood-Cell Detection? A Multi-Seed Benchmark with Corruptions, Ensembles, Slicing and CPU Deployment” to IEEE ISBI 2027, with Huzzatul Jannat Shethil and Jamon A Aranna.", "url": "" },
     { "date": "2026-09-28", "text": "Launched this portfolio and published The AI Lecture Hall — 273 free lectures on AI, ML and Deep Learning.", "url": "https://ai-lecture-hall.vercel.app" },
     { "date": "2026-07-02", "text": "Published “Emotion Detection at Lightning Speed: Leveraging YOLOv11 for Facial Expression Analysis” in Springer Nature’s Lecture Notes in Networks and Systems (ICCTRDA 2025).", "url": "https://doi.org/10.1007/978-3-032-27666-7_19" },
