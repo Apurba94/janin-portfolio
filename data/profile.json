@@ -139,6 +139,17 @@
       "links": []
     },
     {
+      "title": "Fewer Labels, Fewer Stain Failures: Stain Randomisation and Pseudo-Labelling for Robust, Label-Efficient Blood-Cell Detection",
+      "type": "Paper (method)",
+      "status": "In preparation",
+      "year": "2026",
+      "authors": "Janin A Apurba, Huzzatul Jannat Shethil, Jamon A Aranna",
+      "venue": "Target: MICCAI or MIUA 2027",
+      "tags": ["Medical Imaging", "Object Detection", "Domain Shift", "Semi-Supervised Learning"],
+      "description": "HED stain randomisation keeps a YOLO26n blood-cell detector working under strong stain shift (mAP@0.5:0.95 0.26 to 0.66), and pseudo-labelling with 5% of the labels closes about a quarter of the gap to full supervision (3 seeds).",
+      "links": []
+    },
+    {
       "title": "Counting People in 4K Drone Video from Day to Night: A Visually Audited Aerial Person Dataset and a CPU-Feasible Detection–Tracking Pipeline",
       "type": "Paper (dataset and method)",
       "status": "In preparation",
