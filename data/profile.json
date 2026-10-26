@@ -155,7 +155,7 @@
       "status": "In preparation",
       "year": "2026",
       "authors": "Janin A Apurba, Huzzatul Jannat Shethil, Jamon A Aranna",
-      "venue": "Manuscript",
+      "venue": "Target: Machine Vision and Applications (Springer)",
       "tags": ["Aerial Imaging", "Person Detection", "Tracking", "Dataset"],
       "description": "A visually audited aerial person dataset and a CPU-feasible YOLO + ByteTrack pipeline for counting people in 4K drone video from day to night.",
       "links": []
