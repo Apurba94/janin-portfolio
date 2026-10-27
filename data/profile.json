@@ -150,6 +150,17 @@
       "links": []
     },
     {
+      "title": "Are Boxes Enough? Mask-Trained Nano YOLO Segmenters versus Box-Prompted SAM 2 for Polyp Segmentation",
+      "type": "Paper (method comparison)",
+      "status": "In preparation",
+      "year": "2026",
+      "authors": "Janin A Apurba, Huzzatul Jannat Shethil, Jamon A Aranna",
+      "venue": "Target: MIUA 2027",
+      "tags": ["Medical Imaging", "Segmentation", "Foundation Models", "Colonoscopy"],
+      "description": "On Kvasir-SEG, a YOLO26n detector trained with boxes only and prompting a frozen SAM 2.1 reaches Dice 0.893, within 0.01 of nano YOLO segmenters trained with masks (0.88 to 0.905, 3 seeds), but at about ten times the inference cost.",
+      "links": []
+    },
+    {
       "title": "Counting People in 4K Drone Video from Day to Night: A Visually Audited Aerial Person Dataset and a CPU-Feasible Detection–Tracking Pipeline",
       "type": "Paper (dataset and method)",
       "status": "In preparation",
