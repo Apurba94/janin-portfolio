@@ -42,7 +42,7 @@
     { "value": 12, "suffix": "+", "label": "Years of competitive programming" },
     { "value": 39, "suffix": "", "label": "Certificates & credentials" },
     { "value": 273, "suffix": "", "label": "AI lectures authored" },
-    { "value": 225, "suffix": "", "label": "Open-source repositories" }
+    { "value": 326, "suffix": "", "label": "Open-source repositories" }
   ],
 
   "education": [
@@ -263,6 +263,7 @@
   ],
 
   "projects": [
+    {"title": "GRE and TOEFL Study Suite", "category": "Tools", "description": "100 free study apps for the GRE and the January 2026 TOEFL iBT, each a Windows program and a web app: generated quant with exact answers, original verbal and reading banks, listening read aloud, speaking with voice recording, timed sections and mock tests. 2,326 automated tests.", "tech": ["JavaScript", "Python", "PyInstaller"], "code": "https://github.com/Apurba94/gre-toefl-study-suite", "live": "https://gre-toefl-study-suite.vercel.app"},
     {"title": "Heavy Software Suite", "category": "Tools", "description": "50 open-source projects with 1,227 automated tests: systems built from scratch (a SQL database, a compiler, version control), research tools for computer vision (a detection evaluator that matches pycocotools, calibration, label auditing, tracking), offline apps for teachers and field teams, and Bangla text tools. Most need only Python.", "tech": ["Python", "NumPy", "SQLite"], "code": "https://github.com/Apurba94/heavy-software-suite", "live": ""},
     { "title": "Research Automation Toolkit", "category": "Research", "description": "A collection of 100 small open-source tools for daily research work: references and citations, statistics, reproducibility, data checks and lab planning.", "tech": ["Python"], "code": "https://github.com/Apurba94/research-toolkit-catalog", "live": "" },
     { "title": "Competitive Programming Suite", "category": "Tools", "description": "Automation tools for algorithmic problem solving: a local judge, a stress tester, test generators and a library of 69 algorithms cross-checked against brute force.", "tech": ["Python"], "code": "https://github.com/Apurba94/cp-judge", "live": "" },
@@ -373,6 +374,7 @@
   ],
 
   "news": [
+    {"date": "2026-11-05", "text": "Released the GRE and TOEFL Study Suite: 100 free study apps for the GRE and the new TOEFL iBT, as Windows programs and in the browser.", "url": "https://gre-toefl-study-suite.vercel.app"},
     {"date": "2026-11-03", "text": "Released the Heavy Software Suite: 50 open-source projects with 1,227 automated tests, from a SQL database and a compiler to computer-vision research tools, offline apps for teachers and field teams, and Bangla text tools.", "url": "https://github.com/Apurba94/heavy-software-suite"},
     { "date": "2026-11-02", "text": "Released 20 Windows desktop apps for competitive programming and research, and 10 original offline phone games you can play in the browser.", "url": "https://apurba94.github.io/tidewarden/" },
     { "date": "2026-10-30", "text": "Finished two new manuscripts: few-shot classification with BiomedCLIP, CLIP and DINOv2, and CPU deployment of blood-cell classifiers in Python and C++.", "url": "" },
