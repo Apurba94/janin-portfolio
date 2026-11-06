@@ -248,6 +248,12 @@
       "highlights": ["4 video lessons", "Bangla, English subtitles", "Quizzes & homework", "Python demos"]
     },
     {
+      "title": "GRE and TOEFL Study Suite",
+      "description": "100 free study apps for the GRE and the January 2026 TOEFL iBT, in the browser or as Windows programs, with no account. They include vocabulary drills, generated quant questions with exact answers, original verbal and reading questions, listening read aloud, speaking practice with voice recording, writing practice, timed sections and mock tests.",
+      "url": "https://gre-toefl-study-suite.vercel.app",
+      "highlights": ["100 free apps", "GRE and TOEFL iBT", "Web and Windows", "Mock tests"]
+    },
+    {
       "title": "Teaching at CNRS-UNHCR",
       "description": "Teaching students ICT and digital skills as Advanced ICT Officer.",
       "url": "",
