@@ -9,7 +9,7 @@
   "tagline": "Data Scientist · ML/DL/AI & Computer Vision researcher · Competitive programmer · Educator",
   "typedRoles": [
     "Aspiring PhD Researcher in AI",
-    "Computer Vision Enthusiast",
+    "Medical Imaging & Computer Vision Researcher",
     "Competitive Programmer (12+ years)",
     "Advanced ICT Officer at CNRS-UNHCR",
     "Educator & Author of 273 AI Lectures"
@@ -18,22 +18,22 @@
   "email": "japurba97@gmail.com",
   "phone": "+8801938328401",
   "photo": "images/profile.jpg",
-  "openTo": "Seeking a fully funded PhD in AI",
+  "openTo": "Seeking a fully funded PhD in AI (Fall 2027)",
   "siteUrl": "https://janin-a-apurba.vercel.app",
 
   "summary": [
     "I am a Computer Science and Engineering graduate with a deep passion for solving problems through code. Since 2014, I have immersed myself in competitive programming, which has sharpened my ability to think critically and design efficient algorithms.",
-    "Alongside this, I have developed a strong interest in artificial intelligence, machine learning, deep learning and computer vision — areas where I have gained hands-on experience through academic research projects and self-driven learning. I enjoy exploring how data and intelligent systems can solve real-world problems, and I am always looking for opportunities to grow, collaborate and build meaningful technology.",
+    "My research is in computer vision and deep learning for medical images. I have one peer-reviewed paper (Springer Nature, 2026) and one paper under review at IEEE ISBI 2027, a multi-seed benchmark of nano YOLO detectors for blood-cell detection. Six more manuscripts are in preparation, on acquisition and stain shift, few-shot learning with foundation models, polyp segmentation, CPU deployment and people counting in drone video. I run every experiment on free cloud GPUs and write my own tools, many of which are open source.",
     "Today I work as an Advanced ICT Officer at CNRS-UNHCR, where I teach students and apply technology in a humanitarian context — and I have written a free, university-level curriculum of 273 lectures on AI, Machine Learning and Deep Learning."
   ],
 
-  "researchStatement": "My research interests centre on computer vision and deep learning for real-world safety and human understanding — particularly in the context of developing countries such as Bangladesh. My undergraduate research tackled pedestrian detection with risk-level classification for Bangladeshi road scenes and vision-based vehicle over-speed detection. My co-authored paper on real-time facial-expression analysis with YOLOv11 was published by Springer Nature in 2026 (Lecture Notes in Networks and Systems), and I am now benchmarking modern YOLO detectors for blood-cell microscopy. I am seeking a PhD position where I can develop robust, efficient and fair vision models that work reliably outside benchmark conditions — for road safety, humanitarian applications and education.",
+  "researchStatement": "I want to build vision models that keep working when conditions change: a new microscope, a different stain, a darker camera or a cheaper computer. My undergraduate research began with pedestrian detection and risk-level classification for Bangladeshi road scenes and vision-based vehicle over-speed detection, and my co-authored paper on real-time facial-expression analysis with YOLOv11 was published by Springer Nature in 2026. Since then I have focused on medical image analysis. I benchmarked nano YOLO detectors for blood-cell detection across seeds, corruptions and CPU deployment (under review at IEEE ISBI 2027). I measured how blood-cell classifiers fail under acquisition and stain shift, compared few-shot learning with BiomedCLIP, CLIP and DINOv2, and started CellShift, a study of adapting a detector to a new laboratory without labels while giving calibrated cell-count intervals. In a PhD I want to work on robust, label-efficient and well-calibrated medical imaging models that can run on modest hardware in low-resource clinics.",
 
   "interests": [
-    { "title": "Computer Vision", "icon": "👁️", "text": "Object detection, pedestrian and vehicle analysis, facial expression recognition, real-time vision with YOLO-family models." },
-    { "title": "Machine Learning & Deep Learning", "icon": "🧠", "text": "CNNs, transfer learning, efficient models and practical deep learning for deployment." },
-    { "title": "Artificial Intelligence", "icon": "🤖", "text": "Intelligent systems that solve real-world problems, AI for social good and humanitarian contexts." },
-    { "title": "Image Processing", "icon": "🖼️", "text": "Classical and learned image analysis pipelines, preprocessing and feature extraction." },
+    { "title": "Computer Vision", "icon": "👁️", "text": "Object detection and segmentation, pedestrian and vehicle analysis, facial expression recognition, real-time vision with YOLO-family models and SAM 2." },
+    { "title": "Machine Learning & Deep Learning", "icon": "🧠", "text": "Label-efficient learning, few-shot classification with foundation models (BiomedCLIP, CLIP, DINOv2), knowledge distillation and INT8 quantisation for CPU deployment." },
+    { "title": "Robust & Trustworthy AI", "icon": "🤖", "text": "Models that stay reliable under distribution shift: calibration, domain adaptation without labels, conformal uncertainty, and AI for social good in humanitarian settings." },
+    { "title": "Medical Image Analysis", "icon": "🖼️", "text": "Blood-cell microscopy, polyp segmentation and skin-lesion images: detection, counting and classification across laboratories and stains." },
     { "title": "Data Science", "icon": "📊", "text": "Statistics, data analysis, visualisation and end-to-end data pipelines." },
     { "title": "Algorithms & Competitive Programming", "icon": "⚡", "text": "Data structures, algorithm design and complexity — 12+ years of contest problem solving (since 2014)." }
   ],
