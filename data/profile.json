@@ -42,7 +42,7 @@
     { "value": 12, "suffix": "+", "label": "Years of competitive programming" },
     { "value": 39, "suffix": "", "label": "Certificates & credentials" },
     { "value": 273, "suffix": "", "label": "AI lectures authored" },
-    { "value": 326, "suffix": "", "label": "Open-source repositories" }
+    { "value": 428, "suffix": "", "label": "Open-source repositories" }
   ],
 
   "education": [
@@ -254,6 +254,12 @@
       "highlights": ["100 free apps", "GRE and TOEFL iBT", "Web and Windows", "Mock tests"]
     },
     {
+      "title": "IELTS Study Suite",
+      "description": "100 free study apps for IELTS Academic and General Training, in the browser or as Windows programs, with no account. They cover listening with generated calls and maps, reading with every question type, Task 1 charts and letters, Task 2 essays, a recorded speaking test, vocabulary and mock tests.",
+      "url": "https://ielts-study-suite.vercel.app",
+      "highlights": ["100 free apps", "Academic and General Training", "Web and Windows", "Mock tests"]
+    },
+    {
       "title": "Teaching at CNRS-UNHCR",
       "description": "Teaching students ICT and digital skills as Advanced ICT Officer.",
       "url": "",
@@ -270,6 +276,7 @@
 
   "projects": [
     {"title": "JaniX Code Editor", "category": "Tools", "description": "A fast code editor for Windows, Android and iPhone. On Windows: the Monaco editor that powers VS Code, a real integrated terminal (ConPTY and xterm.js), split editor, live Markdown preview, Git status in the explorer, settings and an installer that adds Open with JaniX to the right-click menu. On phones: the same editor and features built on CodeMirror, a built-in terminal that runs JavaScript and Python, Git clone, commit and push, and coding keys above the keyboard. Installs as a web app, an Android APK or an iOS project.", "tech": ["JavaScript", "Electron", "Monaco", "CodeMirror", "Capacitor"], "code": "https://github.com/Apurba94/JaniX", "live": "https://janix-editor.vercel.app"},
+    {"title": "IELTS Study Suite", "category": "Tools", "description": "100 free study apps for IELTS Academic and General Training, each a Windows program and a web app: generated Part 1 calls, maps and Task 1 charts, original listening scripts read aloud, reading passages with every question type, essay and letter practice, a recorded speaking test, and approximate band conversion. 2,901 automated tests.", "tech": ["JavaScript", "Python", "PyInstaller"], "code": "https://github.com/Apurba94/ielts-study-suite", "live": "https://ielts-study-suite.vercel.app"},
     {"title": "GRE and TOEFL Study Suite", "category": "Tools", "description": "100 free study apps for the GRE and the January 2026 TOEFL iBT, each a Windows program and a web app: generated quant with exact answers, original verbal and reading banks, listening read aloud, speaking with voice recording, timed sections and mock tests. 2,326 automated tests.", "tech": ["JavaScript", "Python", "PyInstaller"], "code": "https://github.com/Apurba94/gre-toefl-study-suite", "live": "https://gre-toefl-study-suite.vercel.app"},
     {"title": "Heavy Software Suite", "category": "Tools", "description": "50 open-source projects with 1,227 automated tests: systems built from scratch (a SQL database, a compiler, version control), research tools for computer vision (a detection evaluator that matches pycocotools, calibration, label auditing, tracking), offline apps for teachers and field teams, and Bangla text tools. Most need only Python.", "tech": ["Python", "NumPy", "SQLite"], "code": "https://github.com/Apurba94/heavy-software-suite", "live": ""},
     { "title": "Research Automation Toolkit", "category": "Research", "description": "A collection of 100 small open-source tools for daily research work: references and citations, statistics, reproducibility, data checks and lab planning.", "tech": ["Python"], "code": "https://github.com/Apurba94/research-toolkit-catalog", "live": "" },
@@ -382,6 +389,7 @@
 
   "news": [
     {"date": "2026-11-06", "text": "Released JaniX, my own code editor, for Windows (installer and portable .exe), Android (APK) and iPhone (web app): Monaco or CodeMirror editing, an integrated terminal, split editor, Markdown preview and Git.", "url": "https://github.com/Apurba94/JaniX"},
+    {"date": "2026-11-06", "text": "Released the IELTS Study Suite: 100 free study apps for IELTS Academic and General Training, as Windows programs and in the browser.", "url": "https://ielts-study-suite.vercel.app"},
     {"date": "2026-11-05", "text": "Released the GRE and TOEFL Study Suite: 100 free study apps for the GRE and the new TOEFL iBT, as Windows programs and in the browser.", "url": "https://gre-toefl-study-suite.vercel.app"},
     {"date": "2026-11-03", "text": "Released the Heavy Software Suite: 50 open-source projects with 1,227 automated tests, from a SQL database and a compiler to computer-vision research tools, offline apps for teachers and field teams, and Bangla text tools.", "url": "https://github.com/Apurba94/heavy-software-suite"},
     { "date": "2026-11-02", "text": "Released 20 Windows desktop apps for competitive programming and research, and 10 original offline phone games you can play in the browser.", "url": "https://apurba94.github.io/tidewarden/" },
