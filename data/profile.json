@@ -27,7 +27,7 @@
     "Today I work as an Advanced ICT Officer at CNRS-UNHCR, where I teach students and apply technology in a humanitarian context — and I have written a free, university-level curriculum of 273 lectures on AI, Machine Learning and Deep Learning."
   ],
 
-  "researchStatement": "I want to build vision models that keep working when conditions change: a new microscope, a different stain, a darker camera or a cheaper computer. My undergraduate research began with pedestrian detection and risk-level classification for Bangladeshi road scenes and vision-based vehicle over-speed detection, and my co-authored paper on real-time facial-expression analysis with YOLOv11 was published by Springer Nature in 2026. Since then I have focused on medical image analysis. I benchmarked nano YOLO detectors for blood-cell detection across seeds, corruptions and CPU deployment (under review at IEEE ISBI 2027). I measured how blood-cell classifiers fail under acquisition and stain shift, compared few-shot learning with BiomedCLIP, CLIP and DINOv2, and started CellShift, a study of adapting a detector to a new laboratory without labels while giving calibrated cell-count intervals. In a PhD I want to work on robust, label-efficient and well-calibrated medical imaging models that can run on modest hardware in low-resource clinics.",
+  "researchStatement": "I want to build vision models that keep working when conditions change: a new microscope, a different stain, a darker camera or a cheaper computer. My undergraduate research began with pedestrian detection and risk-level classification for Bangladeshi road scenes and vision-based vehicle over-speed detection, and my co-authored paper on real-time facial-expression analysis with YOLOv11 was published by Springer Nature in 2026. Since then I have focused on medical image analysis. I benchmarked nano YOLO detectors for blood-cell detection across seeds, corruptions and CPU deployment (under review at IEEE ISBI 2027). I measured how blood-cell classifiers fail under acquisition and stain shift, compared few-shot learning with BiomedCLIP, CLIP and DINOv2, and started CellShift, a study of adapting a detector to a new laboratory without labels while giving calibrated cell-count intervals. I have also started ten studies on public Bangladeshi datasets that measure how near-duplicate images and split leakage inflate reported accuracy, and how well models transfer between hospitals, districts and cities. In a PhD I want to work on robust, label-efficient and well-calibrated medical imaging models that can run on modest hardware in low-resource clinics.",
 
   "interests": [
     { "title": "Computer Vision", "icon": "👁️", "text": "Object detection and segmentation, pedestrian and vehicle analysis, facial expression recognition, real-time vision with YOLO-family models and SAM 2." },
@@ -191,6 +191,17 @@
       "venue": "Target: Computers in Biology and Medicine",
       "tags": ["Domain Shift", "Pseudo-Labelling", "Conformal Prediction"],
       "description": "A leave-one-laboratory-out study of label-free adaptation, including stain-consistent pseudo-labels, and of conformal intervals for cell counts on TXL-PBC. The code, tests and protocol are finished; the experiments have not been run yet, so no results are reported.",
+      "links": []
+    },
+    {
+      "title": "Reliable AI with Public Bangladeshi Data: Ten Studies on Leakage, Near-Duplicates and Generalisation",
+      "type": "Ongoing project",
+      "status": "In progress",
+      "year": "2026",
+      "authors": "Janin A Apurba, Huzzatul Jannat Shethil, Jamon A Aranna",
+      "venue": "Targets: Q1 journals in medical imaging, intelligent transport and agricultural AI",
+      "tags": ["Data Leakage", "Domain Shift", "Reproducibility", "Bangladesh"],
+      "description": "Ten pre-registered studies on public datasets: near-duplicate and split-leakage audits of Bangladeshi image datasets (crops, brain MRI, clinical CT and X-ray, road damage); cross-dataset and cross-city generalisation (rice-leaf disease; vehicles in Dhaka, Sylhet and Chattogram); licence-plate detection at night and in fog; hourly electricity-demand forecasting under load shedding; and the reliability of fine-grained aircraft-type recognition (leakage, unseen types, calibration). The code is tested on Kaggle and resumes across GPU sessions; the full experiments have started, so no results are reported yet.",
       "links": []
     },
     {
@@ -388,6 +399,7 @@
   ],
 
   "news": [
+    {"date": "2026-11-09", "text": "Started ten studies on public Bangladeshi datasets (leakage audits of crop, MRI, CT, X-ray and road-damage datasets; cross-city vehicle and licence-plate detection; electricity-demand forecasting under load shedding). The code is tested on Kaggle and the experiments have started. I also compiled a catalogue of 133 free datasets, 115 of them from Bangladesh.", "url": ""},
     {"date": "2026-11-06", "text": "Released JaniX, my own code editor, for Windows (installer and portable .exe), Android (APK) and iPhone (web app): Monaco or CodeMirror editing, an integrated terminal, split editor, Markdown preview and Git.", "url": "https://github.com/Apurba94/JaniX"},
     {"date": "2026-11-06", "text": "Released the IELTS Study Suite: 100 free study apps for IELTS Academic and General Training, as Windows programs and in the browser.", "url": "https://ielts-study-suite.vercel.app"},
     {"date": "2026-11-05", "text": "Released the GRE and TOEFL Study Suite: 100 free study apps for the GRE and the new TOEFL iBT, as Windows programs and in the browser.", "url": "https://gre-toefl-study-suite.vercel.app"},
